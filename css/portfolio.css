@@ -42,7 +42,7 @@ body {
 .container {
   max-width: 1000px;
   margin: auto;
-  padding: 40px 4% 30px;
+  padding: 40px 5% 30px;
 }
 
 .back {
@@ -59,12 +59,12 @@ body {
 .back a::before {
   content: "";
   position: absolute;
-  bottom: -3px;
-  left: 0;
+  bottom: -5px;
+  right: 0;
   background-color: aqua;
-  height: 3px;
+  height: 4px;
   width: 0;
-  transition: ease 0.5s;
+  transition: ease-out 0.5s;
 }
 
 .back a:hover::before {
@@ -72,13 +72,24 @@ body {
 }
 
 .back i {
-  font-size: 25px;
+  font-size: 22px;
   vertical-align: middle;
   margin-right: 2px;
+  transition: ease-in 0.3s;
 }
 
 .back a:hover i {
   color: aqua;
+  transform: translateX(-7px);
+}
+
+.heading {
+  margin-top: 10px;
+}
+
+.heading h1 {
+  font-size: 50px;
+  font-weight: bold;
 }
 /* tile  */
 
@@ -185,6 +196,6 @@ body {
   }
 
   .container {
-    padding: 0 3%;
+    padding: 40px 3% 30px;
   }
 }
