@@ -24,30 +24,6 @@ body {
   color: var(--text-color);
 }
 
-.skills .bxl-bootstrap {
-  color: #7612e9;
-}
-.skills .bxl-html5 {
-  color: rgb(225, 108, 5);
-}
-
-.skills .bxl-react {
-  color: #0ec2ef;
-}
-
-.skills .bxl-javascript {
-  color: rgb(203, 176, 24);
-}
-
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 40px 5% 30px;
-}
-
-.back {
-}
-
 .back a {
   color: #fff;
   text-decoration: none;
