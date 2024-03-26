@@ -24,6 +24,14 @@ body {
   color: var(--text-color);
 }
 
+/* contianer */
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 5% 30px;
+}
+
 .back a {
   color: #fff;
   text-decoration: none;
