@@ -79,10 +79,12 @@ body {
 
 .tile-img {
   width: 250px;
+  max-height: 130px;
 }
 
 .tile-img img {
   width: 100%;
+  height: 100%;
 }
 
 .tile {
@@ -138,6 +140,7 @@ body {
   display: flex;
   gap: 10px;
   margin-top: 5px;
+  height: max-content;
 }
 
 .container .tile-links a {
